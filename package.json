@@ -1,0 +1,26 @@
+{
+  "name": "react-quicky",
+  "version": "1.0.0",
+  "description": "A quick & minimal react setup for demo, testing and proof of concept purpose.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rappad/react-quicky.git"
+  },
+  "author": "Wasuwat Limsuparhat <wasuwat.se@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-react": "^7.0.0",
+    "gh-pages": "^2.0.1",
+    "parcel-bundler": "^1.10.3"
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "deploy": "gh-pages -d public -m 'autodeploy [ci skip]'",
+    "build": "parcel build ./src/index.html --out-dir ./public --detailed-report --no-source-maps"
+  }
+}
