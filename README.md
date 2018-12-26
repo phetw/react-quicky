@@ -1,6 +1,9 @@
 ## react-quicky
 A quick &amp; minimal react setup for demo, testing and proof of concept purpose.
 
+branch - `master` = react + parcel
+branch - `preact` = preact + parcel
+
 ### Development
 
 1. clone
