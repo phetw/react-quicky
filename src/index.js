@@ -1,10 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import { h, render } from 'preact'
 import App from './components/App'
 
-import './index.css'
+const mountNode = document.getElementById('root')
 
-ReactDOM.render(<App />, document.getElementById('root'))
+render(<App />, mountNode, mountNode.lastChild)
 
 if (module.hot) {
   module.hot.dispose(function() {
