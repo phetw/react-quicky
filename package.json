@@ -17,7 +17,7 @@
     "parcel-bundler": "^1.11.0"
   },
   "scripts": {
-    "dev": "parcel ./src/index.html --open",
+    "dev": "parcel ./src/index.html",
     "bd": "yarn build && yarn deploy",
     "deploy": "gh-pages -d public -m 'autodeploy [ci skip]'",
     "build": "parcel build ./src/index.html --public-url ./ --out-dir ./public --log-level 0 --detailed-report --no-source-maps"
