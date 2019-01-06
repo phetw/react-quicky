@@ -9,14 +9,15 @@
   "author": "Wasuwat Limsuparhat <wasuwat.se@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "intersection-observer": "^0.5.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
     "@babel/preset-react": "^7.0.0",
     "gh-pages": "^2.0.1",
-    "parcel-bundler": "^1.10.3"
+    "parcel-bundler": "^1.11.0"
   },
   "scripts": {
     "dev": "parcel ./src/index.html",
